@@ -1,0 +1,41 @@
+ Anaconda Environment Setup:
+# Create a new environment (replace env_name with your own)
+conda create --name env_name python=3.10
+
+# Activate the environment
+conda activate env_name
+
+# Deactivate the current environment
+conda deactivate
+
+
+📦 Installing Packages
+# Install a Python package using conda
+conda install package_name
+
+# OR install using pip (inside the environment)
+pip install package_name
+
+
+🚀 Streamlit Commands
+# Run a Streamlit app
+streamlit run app.py
+
+# See Streamlit's example app
+streamlit hello
+
+
+🔄 Useful Maintenance
+# Update pip inside the environment
+python -m pip install --upgrade pip
+
+# Check all packages installed in current environment
+pip list
+
+# List all Conda environments
+conda env list
+
+# Remove an environment (use carefully)
+conda remove --name env_name --all
+
+
